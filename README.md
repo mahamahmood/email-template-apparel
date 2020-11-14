@@ -7,4 +7,4 @@ Created a responsive email marketing template using HTML tables and styled with 
 - HTML
 - CSS
 
-## [Live link of the email template]()
+## [Live link of the email template](https://email-template-apparel.vercel.app/)
