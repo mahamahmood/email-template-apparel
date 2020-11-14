@@ -33,7 +33,27 @@
             border-spacing: 0;
             color: #4a4a4a;
         }
-
+        .two-columns {
+            text-align: center;
+            font-size: 0;
+            padding: 40px 0;
+        }
+        .two-columns .column {
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            font-size: 18px;
+            padding-bottom: 40px;
+        }
+        .button {
+            background-color: #464646;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px 20px;
+            border-radius: 2px;
+        }
     </style>
 </head>
 <body>
@@ -82,7 +102,37 @@
             </tr>
 <!-- end of Background Color Text -->
 <!-- Two Column Section -->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td class="two-columns">
+                                <!-- Shop Womens -->
+                                <table class="column">
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/women.jpg" alt="Shop Womens Apparel" width="300" style="max-width: 300px; padding-bottom: 40px;"></a>
+                                            <a href="#" class="button">SHOP WOMENS</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- end of Shop Womens -->
+                                <!-- Shop Mens -->
+                                <table class="column">
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/men.jpg" alt="Shop Mens Apparel" width="300" style="max-width: 300px; padding-bottom: 40px;"></a>
+                                            <a href="#" class="button">SHOP MENS</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- end of Shop Mens -->
+                            </td>
+                        </tr>
 
+                    </table>
+                </td>
+            </tr>
 <!-- end of Two Column Section -->
 <!-- Brown Border -->
 
